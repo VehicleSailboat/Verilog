@@ -1,0 +1,45 @@
+$date
+	Tue Nov 03 20:57:45 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb $end
+$var wire 4 ! andl1 [3:0] $end
+$var wire 4 " andl [3:0] $end
+$var wire 4 # andb1 [3:0] $end
+$var wire 4 $ andb [3:0] $end
+$var reg 4 % in1 [3:0] $end
+$var reg 4 & in2 [3:0] $end
+$var reg 1 ' in3 $end
+$scope module UUT $end
+$var wire 4 ( andl [3:0] $end
+$var wire 4 ) andl1 [3:0] $end
+$var wire 4 * in1 [3:0] $end
+$var wire 4 + in2 [3:0] $end
+$var wire 1 ' in3 $end
+$var wire 4 , andb1 [3:0] $end
+$var wire 4 - andb [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 -
+b0 ,
+b1011 +
+b1101 *
+b0 )
+b1001 (
+0'
+b1011 &
+b1101 %
+b1 $
+b0 #
+b1001 "
+b0 !
+$end
+#20
